@@ -1,3 +1,5 @@
+<!-- TODO: Use 2x assets... -->
+
 <template>
   <div id="app">
     <div id="nav">

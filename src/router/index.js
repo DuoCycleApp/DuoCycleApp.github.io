@@ -18,6 +18,10 @@ const routes = [
 			{
 				path: '',
 				component: () => import('../views/features/SecondScreen.vue')
+			},
+			{
+				path: 'analysis',
+				component: () => import('../views/features/Analysis.vue')
 			}
 		]
 	},
