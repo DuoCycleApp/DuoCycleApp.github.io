@@ -7,7 +7,9 @@
       <router-link to="/support">Support</router-link>
       <router-link to="/download">Download</router-link>
     </div>
-    <router-view />
+    <transition name="fade">
+      <router-view />
+    </transition>
     <footer>
       <p>© 2019 Patryk Pekala. All Rights Reserved.</p>
 
@@ -51,5 +53,20 @@ footer {
   font-family: "HelveticaNeue-Light";
   color: #9b9b9b;
   font-size: 16px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-property: opacity;
+  transition-duration: 0.25s;
+}
+
+.fade-enter-active {
+  transition-delay: 0.25s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
 }
 </style>
