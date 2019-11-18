@@ -11,6 +11,17 @@ const routes = [
 		component: Home
 	},
 	{
+		path: '/features',
+		name: 'features',
+		component: () => import('../views/Features.vue'),
+		children: [
+			{
+				path: '',
+				component: () => import('../views/features/SecondScreen.vue')
+			}
+		]
+	},
+	{
 		path: '/privacy',
 		name: 'privacy',
 		component: () => import('../views/Privacy.vue')
