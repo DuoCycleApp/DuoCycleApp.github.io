@@ -19,6 +19,11 @@ const routes = [
 		path: '/support',
 		name: 'support',
 		component: () => import('../views/Support.vue')
+	},
+	{
+		path: '/download',
+		name: 'download',
+		component: () => import('../views/Download.vue')
 	}
 	// {
 	//   path: '/about',
