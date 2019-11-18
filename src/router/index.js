@@ -9,6 +9,11 @@ const routes = [
 		path: '/',
 		name: 'home',
 		component: Home
+	},
+	{
+		path: '/privacy',
+		name: 'privacy',
+		component: () => import('../views/Privacy.vue')
 	}
 	// {
 	//   path: '/about',

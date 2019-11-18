@@ -25,6 +25,7 @@
 	display: flex;
 	padding: 30px;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 #nav a {
