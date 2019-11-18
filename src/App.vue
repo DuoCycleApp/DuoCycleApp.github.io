@@ -1,43 +1,55 @@
 <template>
-	<div id="app">
-		<div id="nav">
-			<router-link to="/">Home</router-link>
-			<router-link to="/features">Features</router-link>
-			<router-link to="/privacy">Privacy</router-link>
-			<router-link to="/support">Support</router-link>
-			<router-link to="/download">Download</router-link>
-		</div>
-		<router-view />
-	</div>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link>
+      <router-link to="/features">Features</router-link>
+      <router-link to="/privacy">Privacy</router-link>
+      <router-link to="/support">Support</router-link>
+      <router-link to="/download">Download</router-link>
+    </div>
+    <router-view />
+    <footer>
+      <p>© 2019 Patryk Pekala. All Rights Reserved.</p>
+
+      <p>Apple, the Apple logo and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.</p>
+    </footer>
+  </div>
 </template>
 
 <style>
 #app {
-	font-family: 'HelveticaNeue-CondensedBold';
-	font-size: 20px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: black;
+  font-family: "HelveticaNeue-CondensedBold";
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: black;
 }
 
 #nav {
-	display: flex;
-	padding: 30px;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
+  display: flex;
+  padding: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #nav a {
-	color: black;
-	text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
-	color: red;
+  color: red;
 }
 
 .description {
-	margin: 1em 5em;
+  margin: 1em 5em;
+}
+
+footer {
+  margin-top: 5em;
+  font-family: "HelveticaNeue-Light";
+  color: #9b9b9b;
+  font-size: 16px;
 }
 </style>
