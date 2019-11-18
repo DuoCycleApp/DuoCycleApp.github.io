@@ -94,7 +94,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .privacy {
   text-align: left;
   display: flex;
