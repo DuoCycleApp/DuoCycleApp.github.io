@@ -3,14 +3,20 @@
     <p
       class="description-light"
     >On iPhone, your workout data is organized in tiles. Just tap on one of them to get its data to the top.</p>
-    <img src="../assets/features/heartMode.png" alt="DuoCycle's Heart Mode" />
+    <img class="contained" src="../assets/features/heartMode.png" alt="DuoCycle's Heart Mode" />
     <p
       class="description-light"
     >On Apple Watch, your data is organized in lines. To switch the line, just turn the Digital Crown.</p>
     <div id="switcher" class="centered">
-      <img src="../assets/features/leftArrow.png" alt="Left Arrow" v-on:click="decrementViewMode" />
+      <img
+        class="contained"
+        src="../assets/features/leftArrow.png"
+        alt="Left Arrow"
+        v-on:click="decrementViewMode"
+      />
       {{ viewModes[viewMode].title }}
       <img
+        class="contained"
         src="../assets/features/rightArrow.png"
         alt="Right Arrow"
         v-on:click="incrementViewMode"
@@ -90,7 +96,7 @@ export default {
   display: grid;
   margin: 2em;
   grid-gap: 1em;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 40vw 1fr;
   grid-template-rows: 1fr 3em 3em;
   grid-auto-rows: 1fr;
 
@@ -103,14 +109,21 @@ export default {
   color: #acacac;
 }
 
+.contained {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .centered {
   grid-column: 2 / span 1;
 }
 
 #switcher {
   display: grid;
-  grid-template-columns: 10px 1fr 10px;
+  grid-template-columns: 15px 1fr 15px;
   width: 150px;
+  place-items: center;
 }
 
 #mode-description {
