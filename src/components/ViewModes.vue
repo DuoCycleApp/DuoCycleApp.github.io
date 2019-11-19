@@ -3,7 +3,11 @@
     <p
       class="description-light"
     >On iPhone, your workout data is organized in tiles. Just tap on one of them to get its data to the top.</p>
-    <img class="contained" src="../assets/features/heartMode.png" alt="DuoCycle's Heart Mode" />
+    <img
+      class="contained"
+      v-bind:src="imageForIndex(viewMode)"
+      alt="Image representing current view mode"
+    />
     <p
       class="description-light"
     >On Apple Watch, your data is organized in lines. To switch the line, just turn the Digital Crown.</p>
@@ -35,37 +39,36 @@ export default {
   data: function() {
     return {
       viewMode: 0,
-      // TODO: Provide assets
       viewModes: [
         {
-          image: "",
+          image: "heartMode.png",
           title: "Heart",
           description:
             "In Heart Mode, you get the current heart rate at the top, a chart that depicts your heart rates over distance, your active calories burned and maximum and average values."
         },
         {
-          image: "",
+          image: "speedMode.png",
           title: "Speed",
           description:
-            "In Speed Mode, you get your current speed at the top, along with your travelled distance and the average and maximum speeds."
+            "In Speed Mode, you get your current speed at the top, along with your travelled distance and the average and maximum speeds. You also get a chart to see where you were the fastest (and the slowest)."
         },
         {
-          image: "",
+          image: "timeMode.png",
           title: "Time",
           description:
             "In Time Mode, you can see your workout time at the top. In the middle, you see the real elapsed time since you started the workout. At the bottom, you have a stopwatch that allows for individual timing, e.g. for riding intervals."
         },
         {
-          image: "",
+          image: "mapMode.png",
           title: "Map",
           description:
             "The Map Mode on iPhone shows your travelled route on an interactive map so that you always know where you're going and where you came from."
         },
         {
-          image: "",
+          image: "elevationMode.png",
           title: "Elevation",
           description:
-            "In Elevation Mode, you see the current slope at the top, along with the current altitude and the elevation gained."
+            "In Elevation Mode, you see the current slope at the top, along with the current altitude and the elevation gained. The chart provides you an altitude profile so that you can see which were the steepest mountains on your way."
         }
       ]
     };
@@ -85,6 +88,10 @@ export default {
       } else {
         this.viewMode += 1;
       }
+    },
+
+    imageForIndex: function(index) {
+      return require(`../assets/features/${this.viewModes[index].image}`);
     }
   }
 };
