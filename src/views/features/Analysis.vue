@@ -49,4 +49,23 @@ img {
   max-width: 40vw;
   max-height: 70vh;
 }
+
+@media (max-width: 776px) {
+  .analysis {
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+  }
+
+  img {
+    max-width: 80vw;
+    max-height: 80vh;
+    order: 1;
+  }
+
+  .analysis-desc {
+    width: 90vw;
+    order: 2;
+  }
+}
 </style>
