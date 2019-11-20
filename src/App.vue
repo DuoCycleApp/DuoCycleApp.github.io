@@ -23,6 +23,7 @@
 </template>
 
 <style>
+/* TODO: Make Responsive */
 #app {
   font-family: "HelveticaNeue-CondensedBold", "Oswald";
   font-size: 20px;
@@ -90,5 +91,20 @@ footer {
 .fade-enter,
 .fade-leave-active {
   opacity: 0;
+}
+
+@media (max-width: 550px) {
+  #app {
+    font-size: 20px;
+  }
+
+  .description {
+    margin: 1em;
+  }
+
+  footer {
+    margin-top: 2em;
+    font-size: 12px;
+  }
 }
 </style>

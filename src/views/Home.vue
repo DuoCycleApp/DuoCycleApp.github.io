@@ -24,5 +24,14 @@ export default {
 <style scoped>
 #hero {
   height: 60vh;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 550px) {
+  #hero {
+    height: 100%;
+    width: 90vw;
+  }
 }
 </style>
