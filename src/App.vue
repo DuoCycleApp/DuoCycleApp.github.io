@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:300,500&display=swap"
+      rel="stylesheet"
+    />
     <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/features">Features</router-link>
@@ -20,7 +24,7 @@
 
 <style>
 #app {
-  font-family: "HelveticaNeue-CondensedBold";
+  font-family: "HelveticaNeue-CondensedBold", "Oswald";
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,7 +62,7 @@ h1 {
 }
 
 .copy {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", "Arial";
 }
 
 #appstore {
@@ -67,7 +71,8 @@ h1 {
 
 footer {
   margin-top: 5em;
-  font-family: "HelveticaNeue-Light";
+  font-family: "Helvetica Neue", "Arial";
+  font-weight: 300;
   color: #9b9b9b;
   font-size: 16px;
 }

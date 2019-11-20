@@ -111,7 +111,7 @@ export default {
 }
 
 .description-light {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", "Arial";
   font-size: 20px;
   color: #acacac;
 }
@@ -134,7 +134,7 @@ export default {
 }
 
 #mode-description {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", "Arial";
   font-size: 20px;
 }
 </style>
