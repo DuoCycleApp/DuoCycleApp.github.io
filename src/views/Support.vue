@@ -44,4 +44,15 @@ img {
   max-height: 100%;
   height: 40vh;
 }
+
+@media (max-width: 776px) {
+  .support {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .support-desc {
+    width: 90vw;
+  }
+}
 </style>

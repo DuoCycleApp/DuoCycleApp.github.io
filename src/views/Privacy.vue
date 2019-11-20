@@ -113,4 +113,15 @@ img {
   max-height: 100%;
   height: 40vh;
 }
+
+@media (max-width: 776px) {
+  .privacy {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .privacy-desc {
+    width: 90vw;
+  }
+}
 </style>
