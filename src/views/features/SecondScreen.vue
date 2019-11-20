@@ -44,4 +44,19 @@ img {
   max-height: 100%;
   width: 40vw;
 }
+
+@media (max-width: 776px) {
+  .second-screen {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 80vw;
+  }
+
+  .second-screen-desc {
+    width: 90vw;
+  }
+}
 </style>
