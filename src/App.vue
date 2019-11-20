@@ -5,7 +5,7 @@
       rel="stylesheet"
     />
     <div id="nav">
-      <router-link to="/">Home</router-link>
+      <router-link to="/" exact>Home</router-link>
       <router-link to="/features">Features</router-link>
       <router-link to="/privacy">Privacy</router-link>
       <router-link to="/support">Support</router-link>
@@ -23,7 +23,6 @@
 </template>
 
 <style>
-/* TODO: Make Responsive */
 #app {
   font-family: "HelveticaNeue-CondensedBold", "Oswald";
   font-size: 20px;
@@ -45,7 +44,7 @@
   text-decoration: none;
 }
 
-#nav a.router-link-exact-active {
+#nav a.router-link-active {
   color: red;
 }
 
