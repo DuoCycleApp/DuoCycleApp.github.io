@@ -22,4 +22,11 @@ export default {
 #hero {
   height: 40vh;
 }
+
+@media (max-width: 550px) {
+  #hero {
+    height: 100%;
+    width: 90vw;
+  }
+}
 </style>
