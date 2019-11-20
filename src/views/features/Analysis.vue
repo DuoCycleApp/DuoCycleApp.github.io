@@ -51,7 +51,7 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
-  max-height: 80vh;
+  max-width: 40vw;
+  max-height: 70vh;
 }
 </style>

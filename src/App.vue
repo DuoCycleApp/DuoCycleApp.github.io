@@ -1,5 +1,3 @@
-<!-- TODO: Use 2x assets... -->
-
 <template>
   <div id="app">
     <div id="nav">
@@ -48,6 +46,10 @@
 
 .description {
   margin: 1em 5em;
+}
+
+#appstore {
+  height: 10vh;
 }
 
 footer {
