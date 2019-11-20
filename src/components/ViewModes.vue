@@ -12,19 +12,17 @@
       class="description-light"
     >On Apple Watch, your data is organized in lines. To switch the line, just turn the Digital Crown.</p>
     <div id="switcher" class="centered">
-      <img
-        class="contained"
-        src="../assets/features/leftArrow.png"
-        alt="Left Arrow"
-        v-on:click="decrementViewMode"
-      />
+      <button class="btn-nobg" id="left-arrow" v-on:click="decrementViewMode">
+        <img class="buttonimg" src="../assets/features/leftArrow.png" alt="Left Arrow" />
+      </button>
       {{ viewModes[viewMode].title }}
-      <img
-        class="contained"
-        src="../assets/features/rightArrow.png"
-        alt="Right Arrow"
+      <button
+        class="btn-nobg"
+        id="right-arrow"
         v-on:click="incrementViewMode"
-      />
+      >
+        <img class="buttonimg" src="../assets/features/rightArrow.png" alt="Right Arrow" />
+      </button>
     </div>
     <p id="mode-description" class="centered">{{ viewModes[viewMode].description }}</p>
   </div>
@@ -124,6 +122,17 @@ export default {
 
 .centered {
   grid-column: 2 / span 1;
+}
+
+.btn-nobg {
+  width: 60px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonimg {
+  height: 20px;
 }
 
 #switcher {
