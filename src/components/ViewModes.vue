@@ -146,4 +146,34 @@ export default {
   font-family: "Helvetica Neue", "Arial";
   font-size: 20px;
 }
+
+@media (max-width: 1020px) {
+  #mode-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 810px) {
+  .data-at-glance {
+    grid-template-columns: 1fr;
+  }
+
+  .description-light {
+    display: none;
+  }
+
+  .centered {
+    grid-column: 1 / span 1;
+  }
+
+  .contained {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 406px) {
+  #mode-description {
+    font-size: 14px;
+  }
+}
 </style>
