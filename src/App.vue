@@ -44,8 +44,21 @@
   color: red;
 }
 
+.textlink {
+  color: red;
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 0;
+}
+
 .description {
   margin: 1em 5em;
+}
+
+.copy {
+  font-family: "Helvetica Neue";
 }
 
 #appstore {

@@ -8,11 +8,15 @@
     </div>
     <div class="second-screen-desc">
       <h1>Your iPhone as Second Screen</h1>
-      <p>With the Apple Watch app you can track your rides and see all interesting data at a glance. Heart Rate, Speed, Distance, Elapsed Time, Elevation Gain and much more. It makes your Apple Watch a fully fledged Bike Computer.</p>
+      <p
+        class="copy"
+      >With the Apple Watch app you can track your rides and see all interesting data at a glance. Heart Rate, Speed, Distance, Elapsed Time, Elevation Gain and much more. It makes your Apple Watch a fully fledged Bike Computer.</p>
 
-      <p>But DuoCycle can do even more:</p>
+      <p class="copy">But DuoCycle can do even more:</p>
 
-      <p>As soon as you take your iPhone with you during a ride, DuoCycle transforms it to a second screen. You don’t have to look on your Apple Watch anymore during a ride, but see everything you need on your iPhone. This is not only convenient but also improves your road safety. You can see all the data your Apple Watch is tracking, live on your iPhone.</p>
+      <p
+        class="copy"
+      >As soon as you take your iPhone with you during a ride, DuoCycle transforms it to a second screen. You don’t have to look on your Apple Watch anymore during a ride, but see everything you need on your iPhone. This is not only convenient but also improves your road safety. You can see all the data your Apple Watch is tracking, live on your iPhone.</p>
     </div>
   </div>
 </template>
@@ -32,19 +36,6 @@ export default {
 
 .second-screen-desc {
   width: 50vw;
-}
-
-h1 {
-  margin-top: 0;
-}
-
-p {
-  font-family: "Helvetica Neue";
-}
-
-a {
-  color: red;
-  text-decoration: none;
 }
 
 img {

@@ -5,16 +5,16 @@
     </div>
     <div class="privacy-desc">
       <h1>Privacy</h1>
-      <p>
+      <p class="copy">
         <strong>DuoCycle does not collect any information about you, period.</strong>
       </p>
 
-      <p>
+      <p class="copy">
         We believe that your workouts and workout habits are highly personal
         information that you shouldn't have to share if you don't want to.
       </p>
 
-      <p>
+      <p class="copy">
         This is why DuoCycle tightly integrates with Apple's Health app where you
         have full control over what workout data is saved and who has access to
         it. DuoCycle goes even so far as that it has
@@ -23,13 +23,13 @@
         just as if it never existed.
       </p>
 
-      <p>
+      <p class="copy">
         To ensure the smooth functionality of DuoCycle, it relies on a few
         temporary files which are saved to your device but neither leave it nor
         get further processed:
       </p>
 
-      <p>
+      <p class="copy">
         During a workout, DuoCycle stores snapshots of your currently aggregated
         workout data to the disk every 30 seconds on both iPhone and Apple Watch.
         This has the purpose of restoring your workout data after an app crash.
@@ -39,7 +39,7 @@
         temporary files are deleted after each workout as well.
       </p>
 
-      <p>
+      <p class="copy">
         After a workout has finished, you can see your workouts on the Home screen
         of the app. Most prominently, you can see images of map snapshots with
         your travelled routes on them. These images are generated for each workout
@@ -47,7 +47,7 @@
         nor do they leave your device.
       </p>
 
-      <p>
+      <p class="copy">
         When you tap on a workout on the Home screen, you are provided details
         about your workout. You also have the opportunity to export your workout
         to the popular GPX format. To generate the workout, a temporary GPX file
@@ -56,13 +56,14 @@
         iOS.
       </p>
 
-      <p>
+      <p class="copy">
         You also have the opportunity to share your workout to STRAVA®. To achieve
         this, you have to log into your STRAVA® account during the process and
         authorize DuoCycle to post workouts to your STRAVA® account.
         Authentication and authorization are achieved with the secure and widely
         adopted
         <a
+          class="textlink"
           href="https://oauth.net/2/"
         >OAuth 2.0</a> protocol. DuoCycle
         has no means to obtain your STRAVA® password. Instead, STRAVA® provides
@@ -76,11 +77,12 @@
         deleted after the upload. For more information about how STRAVA® handles
         your uploaded workouts, please refer to
         <a
+          class="textlink"
           href="https://www.strava.com/legal/privacy"
         >STRAVA®'s Privacy Policy</a>.
       </p>
 
-      <p>
+      <p class="copy">
         Beyond the information Apple provides to developers that you can decide to
         provide, DuoCycle uses no third-party analytics frameworks.
       </p>
@@ -103,19 +105,6 @@ export default {
 
 .privacy-desc {
   width: 60vw;
-}
-
-h1 {
-  margin-top: 0;
-}
-
-p {
-  font-family: "Helvetica Neue";
-}
-
-a {
-  color: red;
-  text-decoration: none;
 }
 
 img {

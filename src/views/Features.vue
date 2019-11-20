@@ -21,6 +21,7 @@ export default {
 .small-nav {
   display: flex;
   padding: 30px;
+  padding-top: 0px;
   justify-content: center;
   flex-wrap: wrap;
 }

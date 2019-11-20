@@ -5,18 +5,18 @@
     </div>
     <div class="support-desc">
       <h1>Support</h1>
-      <p>
+      <p class="copy">
         Whenever you encounter problems, unexpected crashes or have ideas
         or feature requests, feel free to send me an eMail with all
         necessary details (problem-description, screenshots, steps to
         reproduce, etc.) to:
       </p>
 
-      <p>
-        <a href="mailto:DuoCycleApp@gmail.com">DuoCycleApp@gmail.com</a>
+      <p class="copy">
+        <a class="textlink" href="mailto:DuoCycleApp@gmail.com">DuoCycleApp@gmail.com</a>
       </p>
 
-      <p>And I will try to respond as fast as I can! 😉</p>
+      <p class="copy">And I will try to respond as fast as I can! 😉</p>
     </div>
   </div>
 </template>
@@ -36,19 +36,6 @@ export default {
 
 .support-desc {
   width: 60vw;
-}
-
-h1 {
-  margin-top: 0;
-}
-
-p {
-  font-family: "Helvetica Neue";
-}
-
-a {
-  color: red;
-  text-decoration: none;
 }
 
 img {
