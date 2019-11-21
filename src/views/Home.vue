@@ -28,7 +28,7 @@ export default {
   max-width: 100%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 740px) {
   #hero {
     height: 100%;
     width: 90vw;
