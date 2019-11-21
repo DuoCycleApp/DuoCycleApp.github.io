@@ -42,6 +42,7 @@
 #nav a {
   color: black;
   text-decoration: none;
+  padding: 0 8px;
 }
 
 #nav a.router-link-active {
