@@ -15,7 +15,7 @@
       <router-view />
     </transition>
     <footer>
-      <p>© 2019 Patryk Pekala. All Rights Reserved.</p>
+      <p>© 2019-2020 Patryk Pekala. All Rights Reserved.</p>
 
       <p>Apple, the Apple logo and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.</p>
     </footer>
