@@ -9,9 +9,9 @@
 		<div class="privacy-desc">
 			<h1>Privacy</h1>
 			<p class="copy">
-				<strong
-					>DuoCycle does not collect any information about you, period.</strong
-				>
+				<strong>
+					DuoCycle does not collect any information about you, period.
+				</strong>
 			</p>
 
 			<p class="copy">
@@ -78,9 +78,10 @@
 				STRAVA® are the same temporary GPX files that you can export on your own
 				and are thus deleted after the upload. For more information about how
 				STRAVA® handles your uploaded workouts, please refer to
-				<a class="textlink" href="https://www.strava.com/legal/privacy"
-					>STRAVA®'s Privacy Policy</a
-				>.
+				<a class="textlink" href="https://www.strava.com/legal/privacy">
+					STRAVA®'s Privacy Policy
+				</a>
+				.
 			</p>
 
 			<p class="copy">

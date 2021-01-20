@@ -12,9 +12,9 @@
 			</p>
 
 			<p class="copy">
-				<a class="textlink" href="mailto:DuoCycleApp@gmail.com"
-					>DuoCycleApp@gmail.com</a
-				>
+				<a class="textlink" href="mailto:DuoCycleApp@gmail.com">
+					DuoCycleApp@gmail.com
+				</a>
 			</p>
 
 			<p class="copy">And I will try to respond as fast as I can! 😉</p>
