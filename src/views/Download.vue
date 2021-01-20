@@ -8,7 +8,9 @@
     <p
       class="description"
     >Download DuoCycle for FREE from the App Store and start recording your rides!</p>
-    <img id="appstore" alt="App Store link" src="../assets/AppStoreBadge.png" />
+    <a href="https://apps.apple.com/app/id1480010951">
+      <img id="appstore" alt="App Store link" src="../assets/AppStoreBadge.png" />
+    </a>
   </div>
 </template>
 

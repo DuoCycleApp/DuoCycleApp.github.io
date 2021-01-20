@@ -11,7 +11,9 @@
       and shows all of your workout data live on iPhone. Your Apple Watch and
       iPhone working as a perfect Duo, designed with cyclists in mind.
     </p>
-    <img id="appstore" alt="App Store Link" src="../assets/AppStoreBadge.png" />
+    <a href="https://apps.apple.com/app/id1480010951">
+      <img id="appstore" alt="App Store Link" src="../assets/AppStoreBadge.png" />
+    </a>
   </div>
 </template>
 
